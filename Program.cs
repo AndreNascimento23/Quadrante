@@ -41,7 +41,7 @@ if (x < 0)
         Console.WriteLine($"O ponto ({x}, {y}) fica no quadrante 2.");
     }
 }
-if (x == 0 || y == 0)
+if (x == 0 ^ y == 0)
 {
     Console.WriteLine($"O ponto ({x}, {y}) fica no eixo das ordenadas.");
 }
